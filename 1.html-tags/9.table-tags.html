@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,td {
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Scott</td>
+                <td>Boston</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Adam</td>
+                <td>Sydeny</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tuan</td>
+                <td>Vietnam</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Scott Desatnick</td>
+            <td>123456789</td>
+            <td>987654321</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Adam Colson</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>987654321</td>
+        </tr>
+    </table>
+</body>
+</html>

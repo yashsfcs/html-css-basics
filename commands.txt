@@ -1,0 +1,6 @@
+! + Tab  - creates HTML template
+!!! + Tab - create just DOCTYPE tag
+h1+ Tab - auto completes the tag
+alt + shift + down arrow - replicate the same code
+alt + z - collapse your text 
+table>(thead>tr>th*3)+(tbody>tr>th*3)+div 
